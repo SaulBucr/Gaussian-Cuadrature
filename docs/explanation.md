@@ -57,5 +57,5 @@ Seguidamente, la función `funcInt(varInd)` representa la función:
 $$f(x) = x^6 - x^2\sin(2x),
 $$
 
-siendo esta la función presente en la integral. Finalmente, se evalúan los puntos transformados, multiplicándose por los pesos correspondientes, y una sumatoria de NumPy se encarga de ir añadiendo todos estos valores.
+siendo esta la función presente en la integrar, editable por otras funcioens según la integrar a resolver. Finalmente, se evalúan los puntos transformados, multiplicándose por los pesos correspondientes, y una sumatoria de NumPy se encarga de ir añadiendo todos estos valores.
 

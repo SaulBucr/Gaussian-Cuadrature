@@ -1,7 +1,7 @@
 import numpy as np
 
 def gaussxw(N):
-    """Crea un array con los puntos de muestreo y los pesos
+    """Crea una tupla de dos arrays con los puntos de muestreo y los pesos
     
     Examples:
         >>> gaussxw(3)
@@ -13,7 +13,7 @@ def gaussxw(N):
 	N (int): Número de puntos utilizados para la cuadratura Gaussiana
 
     Returns:
-        tuple: Contiene una tupla con los puntos de muestreo y sus pesos
+        tuple: Una tupla que contiene los puntos de cuadratura y sus pesos.
 
     """
     x, w = np.polynomial.legendre.leggauss(N)
@@ -39,7 +39,7 @@ def gaussxwab(a, b, x, w):
     return 0.5 * (b - a) * x + 0.5 * (b + a), 0.5 * (b - a) * w
 
 def funcInt(varInd):
-    """Evalúa la función que se desea integrar
+    """Evalúa la función que se desea integrar. Editable según función a integrar.
     
     Examples:
        >>> funcInt(1.0)

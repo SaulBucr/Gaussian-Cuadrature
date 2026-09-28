@@ -25,7 +25,7 @@ escx_w_5 = gaussxwab(1, 3, x_w_5[0], x_w_5[1])
  
 Ahora, se transforman al intervalo de $1$ a $3$, `gausswxab()` se encarga de esto.
  
-Finalmente se imprime el resultado
+Finalmente se imprime el resultado, contemplando la sumatoria según la aproximación. Nota: la función funcInt es editable por otras, por ende depende de la integral a resolver.
  
 ```
 resultado_4 = np.sum(funcInt(escx_w_4[0]) * escx_w_4[1])
