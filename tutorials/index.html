@@ -394,7 +394,7 @@ x_w_5 = gaussxw(5)
 escx_w_5 = gaussxwab(1, 3, x_w_5[0], x_w_5[1])
 </code></pre>
 <p>Ahora, se transforman al intervalo de <span class="arithmatex">\(1\)</span> a <span class="arithmatex">\(3\)</span>, <code>gausswxab()</code> se encarga de esto.</p>
-<p>Finalmente se imprime el resultado</p>
+<p>Finalmente se imprime el resultado, contemplando la sumatoria según la aproximación. Nota: la función funcInt es editable por otras, por ende depende de la integral a resolver.</p>
 <pre><code>resultado_4 = np.sum(funcInt(escx_w_4[0]) * escx_w_4[1])
 resultado_5 = np.sum(funcInt(escx_w_5[0]) * escx_w_5[1])
 
